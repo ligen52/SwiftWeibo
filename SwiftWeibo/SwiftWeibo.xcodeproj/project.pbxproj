@@ -9,9 +9,7 @@
 /* Begin PBXBuildFile section */
 		B7FA98091E4DAB9A00AE9FF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FA98081E4DAB9A00AE9FF7 /* AppDelegate.swift */; };
 		B7FA980B1E4DAB9A00AE9FF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FA980A1E4DAB9A00AE9FF7 /* ViewController.swift */; };
-		B7FA980E1E4DAB9A00AE9FF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7FA980C1E4DAB9A00AE9FF7 /* Main.storyboard */; };
 		B7FA98101E4DAB9A00AE9FF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7FA980F1E4DAB9A00AE9FF7 /* Assets.xcassets */; };
-		B7FA98131E4DAB9A00AE9FF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7FA98111E4DAB9A00AE9FF7 /* LaunchScreen.storyboard */; };
 		B7FA981E1E4DAB9A00AE9FF7 /* SwiftWeiboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FA981D1E4DAB9A00AE9FF7 /* SwiftWeiboTests.swift */; };
 		B7FA98291E4DAB9A00AE9FF7 /* SwiftWeiboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FA98281E4DAB9A00AE9FF7 /* SwiftWeiboUITests.swift */; };
 		B7FA98441E4DB22500AE9FF7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FA98431E4DB22500AE9FF7 /* MainViewController.swift */; };
@@ -42,9 +40,7 @@
 		B7FA98051E4DAB9A00AE9FF7 /* SwiftWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7FA98081E4DAB9A00AE9FF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7FA980A1E4DAB9A00AE9FF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B7FA980D1E4DAB9A00AE9FF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B7FA980F1E4DAB9A00AE9FF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B7FA98121E4DAB9A00AE9FF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7FA98141E4DAB9A00AE9FF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7FA98191E4DAB9A00AE9FF7 /* SwiftWeiboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftWeiboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7FA981D1E4DAB9A00AE9FF7 /* SwiftWeiboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftWeiboTests.swift; sourceTree = "<group>"; };
@@ -107,12 +103,10 @@
 		B7FA98071E4DAB9A00AE9FF7 /* SwiftWeibo */ = {
 			isa = PBXGroup;
 			children = (
-				B7FA98391E4DB19500AE9FF7 /* Classes */,
 				B7FA98081E4DAB9A00AE9FF7 /* AppDelegate.swift */,
+				B7FA98391E4DB19500AE9FF7 /* Classes */,
 				B7FA980A1E4DAB9A00AE9FF7 /* ViewController.swift */,
-				B7FA980C1E4DAB9A00AE9FF7 /* Main.storyboard */,
 				B7FA980F1E4DAB9A00AE9FF7 /* Assets.xcassets */,
-				B7FA98111E4DAB9A00AE9FF7 /* LaunchScreen.storyboard */,
 				B7FA98141E4DAB9A00AE9FF7 /* Info.plist */,
 			);
 			path = SwiftWeibo;
@@ -311,9 +305,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7FA98131E4DAB9A00AE9FF7 /* LaunchScreen.storyboard in Resources */,
 				B7FA98101E4DAB9A00AE9FF7 /* Assets.xcassets in Resources */,
-				B7FA980E1E4DAB9A00AE9FF7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,25 +370,6 @@
 			targetProxy = B7FA98251E4DAB9A00AE9FF7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		B7FA980C1E4DAB9A00AE9FF7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B7FA980D1E4DAB9A00AE9FF7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B7FA98111E4DAB9A00AE9FF7 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B7FA98121E4DAB9A00AE9FF7 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B7FA982B1E4DAB9A00AE9FF7 /* Debug */ = {
