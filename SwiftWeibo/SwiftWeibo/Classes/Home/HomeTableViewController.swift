@@ -25,6 +25,16 @@ class HomeTableViewController: BaseTableViewController {
         navigationItem.leftBarButtonItem = UIBarButtonItem.createBarButton(imageName: "navigationbar_friendattention")
         
         navigationItem.rightBarButtonItem = UIBarButtonItem.createBarButton(imageName: "navigationbar_pop")
+        
+        let titleBtn = TitleButton()
+        titleBtn.setTitle("mars ", for: UIControlState.normal)
+        titleBtn.addTarget(self, action: #selector(titleBtnClick), for: UIControlEvents.touchUpInside)
+        navigationItem.titleView = titleBtn
+        
+    }
+    
+    func titleBtnClick(btn:UIButton){
+        btn.isSelected = !btn.isSelected
     }
     
 }

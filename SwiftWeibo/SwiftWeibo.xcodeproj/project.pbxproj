@@ -22,6 +22,7 @@
 		B7FA98571E51AA3A00AE9FF7 /* VisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FA98561E51AA3A00AE9FF7 /* VisitorView.swift */; };
 		B7FA98591E51AA9800AE9FF7 /* VisitorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7FA98581E51AA9800AE9FF7 /* VisitorView.xib */; };
 		B7FA985C1E54537000AE9FF7 /* UIBarButtonItem+category.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FA985B1E54537000AE9FF7 /* UIBarButtonItem+category.swift */; };
+		B7FA985E1E545DD600AE9FF7 /* TitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FA985D1E545DD600AE9FF7 /* TitleButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		B7FA98561E51AA3A00AE9FF7 /* VisitorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitorView.swift; sourceTree = "<group>"; };
 		B7FA98581E51AA9800AE9FF7 /* VisitorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VisitorView.xib; sourceTree = "<group>"; };
 		B7FA985B1E54537000AE9FF7 /* UIBarButtonItem+category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+category.swift"; sourceTree = "<group>"; };
+		B7FA985D1E545DD600AE9FF7 /* TitleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				B7FA985B1E54537000AE9FF7 /* UIBarButtonItem+category.swift */,
+				B7FA985D1E545DD600AE9FF7 /* TitleButton.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -367,6 +370,7 @@
 				B7FA984A1E4DB30300AE9FF7 /* DiscoveryTableViewController.swift in Sources */,
 				B7FA98541E51A89A00AE9FF7 /* BaseTableViewController.swift in Sources */,
 				B7FA98461E4DB2BD00AE9FF7 /* HomeTableViewController.swift in Sources */,
+				B7FA985E1E545DD600AE9FF7 /* TitleButton.swift in Sources */,
 				B7FA98441E4DB22500AE9FF7 /* MainViewController.swift in Sources */,
 				B7FA98481E4DB2F200AE9FF7 /* MessageTableViewController.swift in Sources */,
 				B7FA98571E51AA3A00AE9FF7 /* VisitorView.swift in Sources */,
