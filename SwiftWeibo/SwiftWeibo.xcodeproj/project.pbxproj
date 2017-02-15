@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B7FA98091E4DAB9A00AE9FF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FA98081E4DAB9A00AE9FF7 /* AppDelegate.swift */; };
-		B7FA980B1E4DAB9A00AE9FF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FA980A1E4DAB9A00AE9FF7 /* ViewController.swift */; };
 		B7FA98101E4DAB9A00AE9FF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7FA980F1E4DAB9A00AE9FF7 /* Assets.xcassets */; };
 		B7FA981E1E4DAB9A00AE9FF7 /* SwiftWeiboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FA981D1E4DAB9A00AE9FF7 /* SwiftWeiboTests.swift */; };
 		B7FA98291E4DAB9A00AE9FF7 /* SwiftWeiboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FA98281E4DAB9A00AE9FF7 /* SwiftWeiboUITests.swift */; };
@@ -17,6 +16,12 @@
 		B7FA98481E4DB2F200AE9FF7 /* MessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FA98471E4DB2F200AE9FF7 /* MessageTableViewController.swift */; };
 		B7FA984A1E4DB30300AE9FF7 /* DiscoveryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FA98491E4DB30300AE9FF7 /* DiscoveryTableViewController.swift */; };
 		B7FA984C1E4DB32C00AE9FF7 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FA984B1E4DB32C00AE9FF7 /* ProfileTableViewController.swift */; };
+		B7FA984F1E516D1F00AE9FF7 /* MainViewController.json in Resources */ = {isa = PBXBuildFile; fileRef = B7FA984E1E516D1F00AE9FF7 /* MainViewController.json */; };
+		B7FA98511E5195C100AE9FF7 /* NullViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FA98501E5195C100AE9FF7 /* NullViewController.swift */; };
+		B7FA98541E51A89A00AE9FF7 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FA98531E51A89A00AE9FF7 /* BaseTableViewController.swift */; };
+		B7FA98571E51AA3A00AE9FF7 /* VisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FA98561E51AA3A00AE9FF7 /* VisitorView.swift */; };
+		B7FA98591E51AA9800AE9FF7 /* VisitorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7FA98581E51AA9800AE9FF7 /* VisitorView.xib */; };
+		B7FA985C1E54537000AE9FF7 /* UIBarButtonItem+category.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FA985B1E54537000AE9FF7 /* UIBarButtonItem+category.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,6 @@
 /* Begin PBXFileReference section */
 		B7FA98051E4DAB9A00AE9FF7 /* SwiftWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7FA98081E4DAB9A00AE9FF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B7FA980A1E4DAB9A00AE9FF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B7FA980F1E4DAB9A00AE9FF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7FA98141E4DAB9A00AE9FF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7FA98191E4DAB9A00AE9FF7 /* SwiftWeiboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftWeiboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +57,12 @@
 		B7FA98471E4DB2F200AE9FF7 /* MessageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageTableViewController.swift; sourceTree = "<group>"; };
 		B7FA98491E4DB30300AE9FF7 /* DiscoveryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoveryTableViewController.swift; sourceTree = "<group>"; };
 		B7FA984B1E4DB32C00AE9FF7 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		B7FA984E1E516D1F00AE9FF7 /* MainViewController.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainViewController.json; sourceTree = "<group>"; };
+		B7FA98501E5195C100AE9FF7 /* NullViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NullViewController.swift; sourceTree = "<group>"; };
+		B7FA98531E51A89A00AE9FF7 /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		B7FA98561E51AA3A00AE9FF7 /* VisitorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitorView.swift; sourceTree = "<group>"; };
+		B7FA98581E51AA9800AE9FF7 /* VisitorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VisitorView.xib; sourceTree = "<group>"; };
+		B7FA985B1E54537000AE9FF7 /* UIBarButtonItem+category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+category.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +115,6 @@
 			children = (
 				B7FA98081E4DAB9A00AE9FF7 /* AppDelegate.swift */,
 				B7FA98391E4DB19500AE9FF7 /* Classes */,
-				B7FA980A1E4DAB9A00AE9FF7 /* ViewController.swift */,
 				B7FA980F1E4DAB9A00AE9FF7 /* Assets.xcassets */,
 				B7FA98141E4DAB9A00AE9FF7 /* Info.plist */,
 			);
@@ -147,6 +156,7 @@
 		B7FA983A1E4DB19500AE9FF7 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				B7FA985B1E54537000AE9FF7 /* UIBarButtonItem+category.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -170,7 +180,10 @@
 		B7FA983D1E4DB19500AE9FF7 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				B7FA985A1E51B3A300AE9FF7 /* CustomView */,
+				B7FA98521E51A85900AE9FF7 /* Resources */,
 				B7FA98431E4DB22500AE9FF7 /* MainViewController.swift */,
+				B7FA98531E51A89A00AE9FF7 /* BaseTableViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -196,6 +209,24 @@
 			children = (
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		B7FA98521E51A85900AE9FF7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B7FA984E1E516D1F00AE9FF7 /* MainViewController.json */,
+				B7FA98501E5195C100AE9FF7 /* NullViewController.swift */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B7FA985A1E51B3A300AE9FF7 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				B7FA98561E51AA3A00AE9FF7 /* VisitorView.swift */,
+				B7FA98581E51AA9800AE9FF7 /* VisitorView.xib */,
+			);
+			name = CustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,6 +337,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7FA98101E4DAB9A00AE9FF7 /* Assets.xcassets in Resources */,
+				B7FA98591E51AA9800AE9FF7 /* VisitorView.xib in Resources */,
+				B7FA984F1E516D1F00AE9FF7 /* MainViewController.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,10 +365,13 @@
 			files = (
 				B7FA984C1E4DB32C00AE9FF7 /* ProfileTableViewController.swift in Sources */,
 				B7FA984A1E4DB30300AE9FF7 /* DiscoveryTableViewController.swift in Sources */,
+				B7FA98541E51A89A00AE9FF7 /* BaseTableViewController.swift in Sources */,
 				B7FA98461E4DB2BD00AE9FF7 /* HomeTableViewController.swift in Sources */,
 				B7FA98441E4DB22500AE9FF7 /* MainViewController.swift in Sources */,
 				B7FA98481E4DB2F200AE9FF7 /* MessageTableViewController.swift in Sources */,
-				B7FA980B1E4DAB9A00AE9FF7 /* ViewController.swift in Sources */,
+				B7FA98571E51AA3A00AE9FF7 /* VisitorView.swift in Sources */,
+				B7FA98511E5195C100AE9FF7 /* NullViewController.swift in Sources */,
+				B7FA985C1E54537000AE9FF7 /* UIBarButtonItem+category.swift in Sources */,
 				B7FA98091E4DAB9A00AE9FF7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
