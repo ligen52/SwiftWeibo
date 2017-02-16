@@ -23,6 +23,8 @@
 		B7FA98591E51AA9800AE9FF7 /* VisitorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7FA98581E51AA9800AE9FF7 /* VisitorView.xib */; };
 		B7FA985C1E54537000AE9FF7 /* UIBarButtonItem+category.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FA985B1E54537000AE9FF7 /* UIBarButtonItem+category.swift */; };
 		B7FA985E1E545DD600AE9FF7 /* TitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FA985D1E545DD600AE9FF7 /* TitleButton.swift */; };
+		B7FA98611E557FC200AE9FF7 /* PopoverViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7FA98601E557FC200AE9FF7 /* PopoverViewController.storyboard */; };
+		B7FA98631E55867F00AE9FF7 /* PopoverPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FA98621E55867F00AE9FF7 /* PopoverPresentationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		B7FA98581E51AA9800AE9FF7 /* VisitorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VisitorView.xib; sourceTree = "<group>"; };
 		B7FA985B1E54537000AE9FF7 /* UIBarButtonItem+category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+category.swift"; sourceTree = "<group>"; };
 		B7FA985D1E545DD600AE9FF7 /* TitleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleButton.swift; sourceTree = "<group>"; };
+		B7FA98601E557FC200AE9FF7 /* PopoverViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PopoverViewController.storyboard; sourceTree = "<group>"; };
+		B7FA98621E55867F00AE9FF7 /* PopoverPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverPresentationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +179,7 @@
 		B7FA983C1E4DB19500AE9FF7 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				B7FA985F1E557FAB00AE9FF7 /* Popover */,
 				B7FA98451E4DB2BD00AE9FF7 /* HomeTableViewController.swift */,
 			);
 			path = Home;
@@ -230,6 +235,15 @@
 				B7FA98581E51AA9800AE9FF7 /* VisitorView.xib */,
 			);
 			name = CustomView;
+			sourceTree = "<group>";
+		};
+		B7FA985F1E557FAB00AE9FF7 /* Popover */ = {
+			isa = PBXGroup;
+			children = (
+				B7FA98601E557FC200AE9FF7 /* PopoverViewController.storyboard */,
+				B7FA98621E55867F00AE9FF7 /* PopoverPresentationController.swift */,
+			);
+			name = Popover;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -340,6 +354,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7FA98101E4DAB9A00AE9FF7 /* Assets.xcassets in Resources */,
+				B7FA98611E557FC200AE9FF7 /* PopoverViewController.storyboard in Resources */,
 				B7FA98591E51AA9800AE9FF7 /* VisitorView.xib in Resources */,
 				B7FA984F1E516D1F00AE9FF7 /* MainViewController.json in Resources */,
 			);
@@ -371,6 +386,7 @@
 				B7FA98541E51A89A00AE9FF7 /* BaseTableViewController.swift in Sources */,
 				B7FA98461E4DB2BD00AE9FF7 /* HomeTableViewController.swift in Sources */,
 				B7FA985E1E545DD600AE9FF7 /* TitleButton.swift in Sources */,
+				B7FA98631E55867F00AE9FF7 /* PopoverPresentationController.swift in Sources */,
 				B7FA98441E4DB22500AE9FF7 /* MainViewController.swift in Sources */,
 				B7FA98481E4DB2F200AE9FF7 /* MessageTableViewController.swift in Sources */,
 				B7FA98571E51AA3A00AE9FF7 /* VisitorView.swift in Sources */,

@@ -29,7 +29,6 @@ class MainViewController: UITabBarController {
                     )
                 }
                 
-                print(dicArr)
             }
             catch{
                 print("出错了 \(error)")
@@ -109,7 +108,7 @@ class MainViewController: UITabBarController {
         btn.setBackgroundImage(UIImage(named: "tabbar_compose_button"),for: UIControlState.normal)
         btn.setBackgroundImage(UIImage(named: "tabbar_compose_button_highlighted"),for: UIControlState.normal)
 
-        btn.addTarget(self, action: "composeBtnClick", for: UIControlEvents.touchUpInside)
+        btn.addTarget(self, action: #selector(MainViewController.composeBtnClick), for: UIControlEvents.touchUpInside)
         
         return btn
     }()

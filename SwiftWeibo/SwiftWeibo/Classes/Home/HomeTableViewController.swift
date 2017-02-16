@@ -35,6 +35,32 @@ class HomeTableViewController: BaseTableViewController {
     
     func titleBtnClick(btn:UIButton){
         btn.isSelected = !btn.isSelected
+        let sb = UIStoryboard(name: "PopoverViewController", bundle: nil)
+        let vc = sb.instantiateInitialViewController()
+        
+        vc?.transitioningDelegate = self
+        vc?.modalPresentationStyle = UIModalPresentationStyle.custom
+        
+        present(vc!, animated: false, completion: nil)
+        
     }
     
 }
+
+extension HomeTableViewController:UIViewControllerTransitioningDelegate{
+    func presentationController(forPresented presented: UIViewController, presenting: UIViewController?, source: UIViewController) -> UIPresentationController?{
+        print(#function)
+        return PopoverPresentationController(presentedViewController: presented, presenting: presenting)
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
